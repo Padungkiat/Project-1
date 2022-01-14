@@ -1,0 +1,17 @@
+body{
+    background-color: #ffffff;
+}
+.header{
+    text-align: center;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 10px;
+  }
+  tr:nth-child(odd){background-color: #f1eeee}
+      
