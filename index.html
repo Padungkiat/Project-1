@@ -1,58 +1,218 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Grade and GPA</title>
+    <title>GPA</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <h1>Grade and GPA of student</h1>
+    <h1 class="header">Grade of student</h1>
     <br><br><br><br>
-    <p>Student ID: 632115030</p>
-    <p>Name: Padungkiat Leksri</p>
-    <p>Degree: Bachelor's degree</p>
-    <p>Faculty: College of Art, Media and Technology</p>
-    <p>Major: Software engineering</p>
+    <div class="row">
+
+        <table class="table">
+            <tbody>
+                <tr>
+                    <td width="30%" rowspan="5">
+                        <img src="sincmu.png" width="150" style="border:1px solid;">
+                    </td>
+                    <td width="25%" text-align="right"><b>Student ID</b></td>
+                    <td width="60%">632115030</td>
+                </tr>
+                <tr>
+                    <td text-align="right"><b>Name</b></td>
+                    <td>Padungkiat Leksri</td>
+                </tr>
+                <tr>
+                    <td text-align="right"><b>Degree</b></td>
+                    <td>Bachelor's degree</td>
+                </tr>
+                <tr>
+                    <td text-align="right"><b>Faculty</b></td>
+                    <td>College of Art, Media and Technology</td>
+                </tr>
+                <tr>
+                    <td text-align="right"><b>Major</b></td>
+                    <td>Software engineering</td>
+                </tr>
+
+            </tbody>
+        </table>
+
+
+        <br>
+        <br>
+        <center>
+            <div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn">View grade</button>
+                <div id="myDropdown" class="dropdown-content">
+                    <a href="/sin/y1s1.html">Year 1 / Semester 1</a>
+                    <a href="/sin/y1s2.html">Year 1 / Semester 2</a>
+                    <a href="/sin/y2s1.html">Year 2 / Semester 1</a>
+                    <a href="/sin/y2s2.html">Year 2 / Semester 2</a>
+                    <a href="/sin/y3s1.html">Year 3 / Semester 1</a>
+                    <a href="/sin/y3s2.html">Year 3 / Semester 2</a>
+                    <a href="/sin/y4s1.html">Year 4 / Semester 1</a>
+                    <a href="/sin/y4s2.html">Year 4 / Semester 2</a>
+                </div>
+            </div>
+        </center>
+        <br>
+        <br>
+        </table>
+
+    </div>
+
+    <table class="table">
+        <tbody>
+            <tr>
+                <td width="30%" rowspan="5">
+                    <img src="yasinthoncmu.jfif" width="150" style="border:1px solid;">
+                </td>
+                <td width="25%" text-align="right"><b>Student ID</b></td>
+                <td width="60%">632115034</td>
+            </tr>
+            <tr>
+                <td text-align="right"><b>Name</b></td>
+                <td>Yasinthon Roekkamyee</td>
+            </tr>
+            <tr>
+                <td text-align="right"><b>Degree</b></td>
+                <td>Bachelor's degree</td>
+            </tr>
+            <tr>
+                <td text-align="right"><b>Faculty</b></td>
+                <td>College of Art, Media and Technology</td>
+            </tr>
+            <tr>
+                <td text-align="right"><b>Major</b></td>
+                <td>Software engineering</td>
+            </tr>
+        </tbody>
+    </table>
     <br>
-    <a href="Padungkiat/y1s1.html">Year 1 / Semester 1</a> |
-    <a href="Padungkiat/y1s2.html">Year 1 / Semester 2</a> |
-    <a href="Padungkiat/y2s1.html">Year 2 / Semester 1</a> |
-    <a href="Padungkiat/y2s2.html">Year 2 / Semester 2</a> |
-    <a href="Padungkiat/y3s1.html">Year 3 / Semester 1</a> |
-    <a href="Padungkiat/y3s2.html">Year 3 / Semester 2</a> |
-    <a href="Padungkiat/y4s1.html">Year 4 / Semester 1</a> |
-    <a href="Padungkiat/y4s2.html">Year 4 / Semester 2</a>
-
-    <br><br><br><br>
-    <p>Student ID: 632115034</p>
-    <p>Name: Yasinthon Roekkamyee</p>
-    <p>Degree: Bachelor's degree</p>
-    <p>Faculty: College of Art, Media and Technology</p>
-    <p>Major: Software engineering</p>
     <br>
-    <a href="Yasinthon/y1s1.html">Year 1 / Semester 1</a> |
-    <a href="Yasinthon/y1s2.html">Year 1 / Semester 2</a> |
-    <a href="Yasinthon/y2s1.html">Year 2 / Semester 1</a> |
-    <a href="Yasinthon/y2s2.html">Year 2 / Semester 2</a> |
-    <a href="Yasinthon/y3s1.html">Year 3 / Semester 1</a> |
-    <a href="Yasinthon/y3s2.html">Year 3 / Semester 2</a> |
-    <a href="Yasinthon/y4s1.html">Year 4 / Semester 1</a> |
-    <a href="Yasinthon/y4s2.html">Year 4 / Semester 2</a>
+    
+    <center>
+        <div class="dropdown2">
+            <button onclick="myFunction2()" class="dropbtn2">View grade</button>
+            <div id="myDropdown2" class="dropdown-content2">
+                    <a href="/yasinthon/y1s1.html">Year 1 / Semester 1</a>
+                    <a href="/yasinthon/y1s2.html">Year 1 / Semester 2</a>
+                    <a href="/yasinthon/y2s1.html">Year 2 / Semester 1</a>
+                    <a href="/yasinthon/y2s2.html">Year 2 / Semester 2</a>
+                    <a href="/yasinthon/y3s1.html">Year 3 / Semester 1</a>
+                    <a href="/yasinthon/y3s2.html">Year 3 / Semester 2</a>
+                    <a href="/yasinthon/y4s1.html">Year 4 / Semester 1</a>
+                    <a href="/yasinthon/y4s2.html">Year 4 / Semester 2</a>
+            </div>
+        </div>
+    </center>
 
-    <p>Student ID: 632115008</p>
-    <p>Name: Kittisak kaewbunmuang</p>
-    <p>Degree: Bachelor's degree</p>
-    <p>Faculty: College of Art, Media and Technology</p>
-    <p>Major: Software engineering</p>
-    <a href="kittisak/y1s1.html">Year 1 / Semester 1</a> |
-    <a href="kittisak/y1s2.html">Year 1 / Semester 2</a> |
-    <a href="kittisak/y2s1.html">Year 2 / Semester 1</a> |
-    <a href="kittisak/y2s2.html">Year 2 / Semester 2</a> |
-    <a href="kittisak/y3s1.html">Year 3 / Semester 1</a> |
-    <a href="kittisak/y3s2.html">Year 3 / Semester 2</a> |
-    <a href="kittisak/y4s1.html">Year 4 / Semester 1</a> |
-    <a href="kittisak/y4s2.html">Year 4 / Semester 2</a>
+    <br>
+    <br>
+    </table>
+    <table class="table">
+        <tbody>
+            <tr>
+                <td width="30%" rowspan="5">
+                    <img src="kitti.png" width="150" style="border:1px solid;">
+                </td>
+                <td width="25%" text-align="right"><b>Student ID</b></td>
+                <td width="60%">632115008</td>
+            </tr>
+            <tr>
+                <td text-align="right"><b>Name</b></td>
+                <td>Kittisak kaewbunmuang</td>
+            </tr>
+            <tr>
+                <td text-align="right"><b>Degree</b></td>
+                <td>Bachelor's degree</td>
+            </tr>
+            <tr>
+                <td text-align="right"><b>Faculty</b></td>
+                <td>College of Art, Media and Technology</td>
+            </tr>
+            <tr>
+                <td text-align="right"><b>Major</b></td>
+                <td>Software engineering</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <br>
+    <center>
+        <div class="dropdown3">
+            <button onclick="myFunction3()" class="dropbtn3">View grade</button>
+            <div id="myDropdown3" class="dropdown-content3">
+                    <a href="/kittisak/y1s1.html">Year 1 / Semester 1</a>
+                    <a href="/kittisak/y1s2.html">Year 1 / Semester 2</a>
+                    <a href="/kittisak/y2s1.html">Year 2 / Semester 1</a>
+                    <a href="/kittisak/y2s2.html">Year 2 / Semester 2</a>
+                    <a href="/kittisak/y3s1.html">Year 3 / Semester 1</a>
+                    <a href="/kittisak/y3s2.html">Year 3 / Semester 2</a>
+                    <a href="/kittisak/y4s1.html">Year 4 / Semester 1</a>
+                    <a href="/kittisak/y4s2.html">Year 4 / Semester 2</a>
+            </div>
+        </div>
+    </center>
 
+    <script>
+
+        function myFunction() {
+            document.getElementById("myDropdown").classList.toggle("show");
+        }
+        window.onclick = function (event) {
+            if (!event.target.matches('.dropbtn')) {
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                    }
+                }
+            }
+        }
+    
+        function myFunction2() {
+            document.getElementById("myDropdown2").classList.toggle("show2");
+        }
+        window.onclick = function (event) {
+            if (!event.target.matches('.dropbtn2')) {
+                var dropdowns2 = document.getElementsByClassName("dropdown-content2");
+                var i;
+                for (i = 0; i < dropdowns2.length; i++) {
+                    var openDropdown2 = dropdowns2[i];
+                    if (openDropdown2.classList.contains('show2')) {
+                        openDropdown2.classList.remove('show2');
+                    }
+                }
+            }
+        }
+
+        function myFunction3() {
+            document.getElementById("myDropdown3").classList.toggle("show3");
+        }
+        window.onclick = function (event) {
+            if (!event.target.matches('.dropbtn3')) {
+                var dropdowns3 = document.getElementsByClassName("dropdown-content3");
+                var i;
+                for (i = 0; i < dropdowns3.length; i++) {
+                    var openDropdown3 = dropdowns3[i];
+                    if (openDropdown3.classList.contains('show3')) {
+                        openDropdown3.classList.remove('show3');
+                    }
+                }
+            }
+        }
+    </script>
+
+    </div>
 </body>
+
 </html>
