@@ -1,4 +1,4 @@
-<img src = "../Project-1/cmu-logo.png"/>
+<img src = "cmu-logo.png"/>
     
 
 # Grade and GPA #
@@ -16,4 +16,4 @@ Student Number | Student Name
 :point_right: [Click Here](https://padungkiat.github.io/Project-1/ "Grade and GPA") :point_left:
 <br/>
 
-<img src = "C:\Users\user\OneDrive\Desktop\SE234\Project-1\camt-logo.png"/>
+<img src = "camt-logo.png"/>
