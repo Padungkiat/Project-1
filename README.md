@@ -1,5 +1,5 @@
 <p align = "left">
-    <img src = "https://stri.cmu.ac.th/img/logo/cmu-logo-th-extra.png" width = "120" height = "120"/>
+    <img src = "../Project-1/cmu-logo.png"/>
 </p>    
 
 # Grade and GPA #
@@ -18,5 +18,5 @@ Student Number | Student Name
 <br/>
 
 <p align = "left">
-    <img src = "https://www.designineducation.com/images/camt_horizontal.png" width = "200"/>
+    <img src = "C:\Users\user\OneDrive\Desktop\SE234\Project-1\camt-logo.png"/>
 </p>
